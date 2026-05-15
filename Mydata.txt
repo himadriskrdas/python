@@ -1,0 +1,10 @@
+ECM                                     : IBM Datacap 9.0.1,9.1.*.
+EDM			         : Markit 17 (Cadis)
+Languages		        :   Python,C#, .NET, ASP.NET, C.
+Database                                       :   MS Server 2008, MS Server 2012,DB2
+Architecture                        :  3 Tier architecture, MVC 4.
+Scripting Languages                    :    Java Script, jQuery.
+IDE			     :  MS Visual Studio 2010, 2012,2015,2017.
+Report 			     :  SQL Server Reporting Service (SSRS).
+Platforms worked on (OS)          :    Windows 95, Windows NT, Windows XP and Windows 7.
+Tools                                 :  Visual Source Safe 6.0 (VSS), Git, BitBucket.
