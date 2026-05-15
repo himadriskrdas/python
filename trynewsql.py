@@ -19,14 +19,16 @@ else :
 
 
 
-action = str(input("Enter your action: "))
+action = str(input("Enter your action: del/delete/remove ? "))
 if action == "delete" or action == "remove" or action == "del" :
-        name=str(input("Enter your name: "))
+        name=str(input("Enter your name for deletion : "))
         curs.execute("delete from student where name = %s",(name,))
         curs.execute("select * from student")
         for x in curs:
             print(x)
 else :
-        print("Not a valid action !!! Thank You !!!!")
+        print("Not a valid action !! Valid Actions are del/delete/remove!! Thank You !!!!")
+        for x in curs:
+            print(x)
 mydb.commit()
 mydb.close()
